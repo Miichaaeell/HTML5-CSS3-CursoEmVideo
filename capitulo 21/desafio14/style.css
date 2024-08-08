@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+#tipo {
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+th, td {
+    border: 1px black solid;
+    padding: 2px;
+
+}
+.destaque{
+    background-color: gray;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+}
+.corpo {
+    text-align: left;
+    padding-left: 10px;
+}
+.notas {
+    text-align: center;
+}
+.disciplinas {
+    padding-left: 10px;
+}
