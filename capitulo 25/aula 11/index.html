@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="icon_menu" class="material-symbols-outlined" onclick="MostrarMenu()">
+            menu
+        </span>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <section>
+        <h1>Titulo da Noticia</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem perferendis delectus et facere quasi aliquam iure laborum a exercitationem velit, animi, obcaecati sint nobis enim tenetur libero, doloremque ad tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore voluptatum reiciendis quia? Ipsa ab saepe sapiente, adipisci, sint molestiae numquam magni omnis molestias soluta recusandae eos tempora similique ut. Reiciendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit atque itaque at ratione rerum unde voluptatum alias harum sequi voluptates natus ab distinctio labore iste, illum minima molestias accusamus eos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit! Voluptatum veritatis maiores, culpa animi voluptates nam iure modi nisi iusto tempore eius? Nobis quos perspiciatis repellat excepturi praesentium laborum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, harum aspernatur quam, architecto labore sunt placeat exercitationem accusantium eius sit quae temporibus consectetur hic voluptatem, recusandae maxime cumque odio dolorum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime asperiores aliquam amet hic voluptates, deleniti rerum sint dolorem vitae libero culpa eum labore, accusamus distinctio officia suscipit neque recusandae quasi.</p>
+    </section>
+
+    <footer>
+        <p>Desenvolvido durante aulas do <a href="https://www.cursoemvideo.com" target="_blank">CursoEmVIdeo</a></p>
+    </footer>
+
+    <script>
+        function MostrarMenu() {
+            if (items.style.display == 'none'){
+                items.style.display = 'block'
+            } else {
+                items.style.display = 'none'
+            }
+        }
+           
+
+    </script>
+</body>
+</html>
