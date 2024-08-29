@@ -25,6 +25,8 @@ main {
     background-color: antiquewhite;
 }
 section#login {
+    display: flex;
+    flex-flow: column nowrap;
     background-color: gray;
     height: 650px;
     width: 70vw;
